@@ -31,14 +31,63 @@ form {
     border-radius: 20px;
 }
 #div_box{
-    padding: 150px;
+
     background-color: rgb(250, 202, 218);
     border:1px solid black;
-    margin: 70px;
     display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    
 }
 
 nav a {
     padding: 8px;
     
+}
+#div_box1 {
+    text-align: center;
+    padding:200px 0px 0px 20px;
+    width: 500px;
+    height: 250px;
+    background-color:  rgb(201, 177, 163);
+    transition:1s;
+    
+    margin: 10px;
+    border: 3px solid green;
+}
+#div_box1:hover {
+    border-radius: 100%;
+    background-color: lightcoral;
+}
+#div_box2 {
+    text-align: left;
+    width: 500px;
+    height: 250px;
+    background-color: rgb(168, 81, 81);
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid green;
+    color: rgb(208, 195, 195);
+}
+#div_box3 {
+    width: 500px;
+    height: 200px;
+    background-color: rgb(117, 46, 46);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border: 3px solid green;
+    color: rgb(182, 145, 145);
+}
+#div_box4 {
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(56, 18, 18);
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid green;
+    color: rgb(224, 192, 192);
+   
 }
