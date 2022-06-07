@@ -60,14 +60,30 @@ nav a {
     background-color: lightcoral;
 }
 #div_box2 {
-    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     width: 500px;
-    height: 250px;
     background-color: rgb(168, 81, 81);
     padding: 10px;
     margin: 10px;
     border: 3px solid green;
     color: rgb(208, 195, 195);
+    height:50vh;
+}
+button {
+    background: none;
+    color: rgb(210, 189, 169);
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+}
+button:hover {
+    background-color: darkred;
+    color: aliceblue;
+    box-shadow: 0 0.5em 0.5em -0.4em, darkred;
+    transform: translateY(-0.25em);
 }
 #div_box3 {
     width: 500px;
