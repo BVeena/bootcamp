@@ -49,15 +49,15 @@ nav a {
     padding:200px 0px 0px 20px;
     width: 500px;
     height: 250px;
-    background-color:  rgb(201, 177, 163);
+    background-color:  rgb(212, 129, 106);
     transition:1s;
-    
     margin: 10px;
     border: 3px solid green;
 }
 #div_box1:hover {
     border-radius: 100%;
     background-color: lightcoral;
+    color: aliceblue;
 }
 #div_box2 {
     font-family: 'Courier New', Courier, monospace;
@@ -69,12 +69,11 @@ nav a {
     padding: 10px;
     margin: 10px;
     border: 3px solid green;
-    color: rgb(208, 195, 195);
     height:50vh;
 }
 button {
-    background: none;
-    color: rgb(210, 189, 169);
+    background:lightcoral;
+    color: rgb(11, 6, 1);
     border: 2px solid;
     padding: 1em 2em;
     font-size: 1em;
@@ -87,20 +86,21 @@ button:hover {
 }
 #div_box3 {
     width: 500px;
-    height: 200px;
+    height:50vh;
     background-color: rgb(117, 46, 46);
     padding: 10px;
     margin: 10px;
     text-align: center;
     border: 3px solid green;
     color: rgb(182, 145, 145);
+    transition: 1s;
 }
+
 #div_box4 {
-    text-align: center;
+    text-align: left;
     width: 500px;
-    height: 200px;
-    background-color: rgb(56, 18, 18);
-    text-align: right;
+    height:50vh;
+    background-image:url("https://images.unsplash.com/photo-1654590390722-c1448c8993aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3MHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60") ;
     padding: 10px;
     margin: 10px;
     border: 3px solid green;
