@@ -71,14 +71,14 @@ nav a {
     border: 3px solid green;
     height:50vh;
 }
-button {
+#btn2 {
     background:lightcoral;
     color: rgb(11, 6, 1);
     border: 2px solid;
     padding: 1em 2em;
     font-size: 1em;
 }
-button:hover {
+#btn2:hover {
     background-color: darkred;
     color: aliceblue;
     box-shadow: 0 0.5em 0.5em -0.4em, darkred;

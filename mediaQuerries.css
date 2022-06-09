@@ -1,0 +1,45 @@
+@media (max-width:1200px) {
+    h2 {
+        font-size: 4em;
+        color: black;
+    }
+}
+@media (max-width:992px) {
+    h2 {
+        font-size: 3em;
+        color: rgb(56, 3, 3);
+    }
+}
+@media (max-width:768px) {
+    h2 {
+        font-size: 2em;
+        color: rgb(138, 3, 3);
+    }
+    nav, nav ul {
+        flex-direction: column;
+        align-items: center ;
+    }
+}
+@media (max-width:576px) {
+    h2 {
+        font-size: 1em;
+        color: rgb(240, 10, 10);
+    }
+}
+nav {
+    font-size: 1.5em;
+    display:flex;
+    justify-content: space-between;
+}
+ul, li {
+    display: inline;
+    margin: 0;
+    padding:0;
+}
+ul {
+    border: 1px solid black;
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
