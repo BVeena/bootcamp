@@ -1,0 +1,40 @@
+.container {
+    border: 2px solid black;
+}
+header {
+    background-color: blue;
+    text-align :center;
+    color :white;
+    padding:10px;
+}
+.calc {
+
+   text-align: center;
+   padding: 5px;
+  
+}
+.txt {
+    border: 1px dotted black;
+    padding: 5px 5px;
+}
+.btns {
+    padding: 5px;
+    color: white;
+}
+.btn {
+    background-color: blue;
+    padding: 10px 13px;
+    border: none;
+    color: white;
+    
+}
+.btn1 {
+    background-color: blue;
+    padding: 10px 71px;
+    border: none;
+    color: white;
+}
+.reminder {
+    color: blue;
+    font-size: small;
+}

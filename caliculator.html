@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="caliculator.css">
+    <title>Caliculator</title>
+</head>
+<body>
+    <div class="container">
+        <header>Caliculator App</header>
+        <form action="" class="calc">
+            <div>
+                <p >Number:1</p>
+            </div>
+            <div>
+                <input id ="number1" type="number" class="txt"> <br>
+            </div>
+            <div class="btns">
+                <button onclick = "add()" type="button" class="btn">+</button>
+                <button onclick = "minus()" type="button" class="btn">-</button>
+                <button onclick = "multi()" type="button" class="btn">*</button>
+                <button onclick = "division()" type="button" class="btn">%</button>
+            </div>
+            <div>
+                <p>Number:2</p>
+            </div>
+            <div>
+                <input id ="number2" type="number" class="txt"> <br>
+            </div>
+            <div class="btns">
+                <button  type ="button" onclick = "calculate()" value= "=" class="btn1">=</button>
+            </div>
+            <div>
+                <input id ="result" type="text" class="txt"> <br>
+            </div>
+            <div class="reminder"><p>Remember we can't devide by 0</p></div>
+        </form>
+
+
+    </div>
+    <script src ="script.js"></script>
+</body>
+</html>
